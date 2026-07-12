@@ -1,23 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Diameter Formulas</title>
-<script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeekAlley | About</title>
 
-  function DiameterCircle(){
-
-    let radius = document.getElementById("radiusInput").value;
-    let diameter = 2 * radius;
-    document.getElementById("demo").innerHTML = "Diameter:" + diameter;
-  }
-</script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2>Diameter of a Circle</h2>
-  <p>Radius: <input type="text" id = "radiusInput"></p>
-  <button type="button" onclick="DiameterCircle()"> Get Diameter</button>
 
-  <h3>d = 2 r</h3>
-  <p id="demo"> Diameter will show here</p>
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            GeekAlley
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="calculator.html">Calculator</a></li>
+            <li><a href="diameter.html">Diameter</a></li>
+            <li><a href="area.html">Area</a></li>
+            <li><a href="volume.html">Volume</a></li>
+            <li><a href="perimeter.html">Perimeter</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="page-title">
+
+    <h1>About the Programmer</h1>
+
+    <p>Meet the creator of GeekAlley.</p>
+
+</section>
+
+<section class="about-container">
+
+    <div class="profile-card">
+
+        <img src="img/profile.jpg" alt="Programmer Picture" class="profile-img">
+
+        <h2>Full Name</h2>
+        <p><strong>Placeholder Name</strong></p>
+
+        <p><strong>Grade & Section:</strong></p>
+        <p>Grade __ - Section ____</p>
+
+        <p><strong>School:</strong></p>
+        <p>Your School Name</p>
+
+    </div>
+
+    <div class="about-content">
+
+        <div class="card">
+
+            <h2>Short Biography</h2>
+
+            <p>
+                Hello! I am a student who enjoys learning web development
+                and programming. This website was created as a school
+                project to demonstrate the use of HTML, CSS, and JavaScript
+                in building an interactive mathematics website.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h2>Skills Learned</h2>
+
+            <ul>
+                <li>HTML5 Page Structure</li>
+                <li>CSS Styling</li>
+                <li>Responsive Web Design</li>
+                <li>JavaScript Functions</li>
+                <li>DOM Manipulation</li>
+                <li>User Input Handling</li>
+                <li>Mathematical Computations</li>
+            </ul>
+
+        </div>
+
+        <div class="card">
+
+            <h2>Reflection</h2>
+
+            <p>
+                Developing GeekAlley helped me improve my understanding
+                of creating responsive websites while applying JavaScript
+                to solve real-world mathematical problems. Throughout this
+                project, I became more confident in organizing multiple web
+                pages, linking them together, and creating reusable styles
+                and scripts. This experience strengthened my programming
+                skills and encouraged me to continue learning web
+                development.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        &copy; 2026 GeekAlley. All Rights Reserved.
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
