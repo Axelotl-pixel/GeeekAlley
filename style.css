@@ -494,3 +494,116 @@ font-size:1.7rem;
 }
 
 }
+/* ===============================
+CALCULATOR IMPROVEMENTS
+================================== */
+
+.calculator-container{
+    max-width:900px;
+    margin:40px auto;
+    padding:20px;
+}
+
+.card{
+    margin-bottom:25px;
+}
+
+.card input,
+.card select{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+    transition:.3s;
+}
+
+.card input:focus,
+.card select:focus{
+    outline:none;
+    border-color:#db7093;
+    box-shadow:0 0 8px rgba(219,112,147,.35);
+}
+
+.card button,
+button{
+
+    background:#db7093;
+    color:#fff;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.card button:hover,
+button:hover{
+
+    background:#b93f6f;
+
+    transform:translateY(-2px);
+
+}
+
+.card button:active,
+button:active{
+
+    transform:scale(.98);
+
+}
+
+.result{
+
+    margin-top:15px;
+
+    padding:12px;
+
+    background:#fff0f5;
+
+    border-left:5px solid #db7093;
+
+    border-radius:8px;
+
+    font-weight:600;
+
+    color:#b93f6f;
+
+}
+
+/* ===============================
+BETTER MOBILE RESPONSIVENESS
+================================== */
+
+@media(max-width:768px){
+
+    .navbar{
+        padding:15px;
+    }
+
+    .hero-content{
+        padding:30px 20px;
+    }
+
+    .about-container{
+        padding:15px;
+    }
+
+    .card{
+        padding:20px;
+    }
+
+    .calculator-container{
+        padding:15px;
+    }
+
+}
