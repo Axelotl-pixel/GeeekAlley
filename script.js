@@ -468,6 +468,22 @@ function parallelogramPerimeter() {
 
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    if (hamburger && navLinks) {
+        hamburger.addEventListener('click', () => {
+            // Toggle the 'open' class on the nav-links menu
+            navLinks.classList.toggle('open');
+            
+            // Update accessibility state (true if open, false if closed)
+            const isOpen = navLinks.classList.contains('open');
+            hamburger.setAttribute('aria-expanded', isOpen);
+        });
+    }
+});
+
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 
