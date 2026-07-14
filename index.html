@@ -3,143 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GeekAlley | Home</title>
-
+    <title>GeekAlley | About</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navigation -->
-    <header>
-        <nav class="navbar">
+<header>
+    <nav class="navbar" aria-label="Primary Navigation">
+        <div class="logo">GeekAlley</div>
 
-        <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
-  ☰
-</button>
-            
-            <div class="logo">
-                GeekAlley
-            </div>
+        <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">☰</button>
 
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="calculator.html">Calculator</a></li>
-                <li><a href="diameter.html">Diameter</a></li>
-                <li><a href="area.html">Area</a></li>
-                <li><a href="volume.html">Volume</a></li>
-                <li><a href="perimeter.html">Perimeter</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="calculator.html">Calculator</a></li>
+            <li><a href="diameter.html">Diameter</a></li>
+            <li><a href="area.html">Area</a></li>
+            <li><a href="volume.html">Volume</a></li>
+            <li><a href="perimeter.html">Perimeter</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+        </ul>
+    </nav>
+</header>
 
-        </nav>
-    </header>
-
-    <!-- Banner -->
-
-    <section class="hero">
-
-        <div class="hero-text">
-
-            <h1>Welcome to GeekAlley</h1>
-
-            <p>
-                Your all-in-one mathematics companion. Explore useful
-                calculators for solving arithmetic operations,
-                diameter formulas, area, volume, and perimeter with ease.
-            </p>
-
-            <a href="calculator.html" class="btn">
-                Start Calculating
-            </a>
-
-        </div>
-
-        <div class="hero-image">
-            <img src="img/banner.jpg" alt="Math Banner">
-        </div>
-
+<main>
+    <section class="page-title">
+        <h1>About the Programmer</h1>
+        <p>Meet the creator of GeekAlley.</p>
     </section>
 
-    <!-- Introduction -->
+    <section class="about-container">
+        <aside class="profile-card">
+            <img src="img/profile.jpg" alt="Programmer Picture" class="profile-img">
 
-    <section class="intro">
+            <h2>Full Name</h2>
+            <p><strong>Zelene Alexei P. Egao</strong></p>
 
-        <h2>Introduction</h2>
+            <p><strong>Grade &amp; Section:</strong></p>
+            <p>Grade 10 - STE Albert Einstein</p>
 
-          <p>
-              GeekAlley is an educational website designed to help students
-              perform mathematical calculations quickly and accurately.
-              It offers interactive calculators for different geometric
-              formulas and basic arithmetic operations. Whether you're
-              solving homework or reviewing formulas, GeekAlley provides
-              a simple and responsive interface that works on both desktop
-              and mobile devices.
-          </p>
+            <p><strong>School:</strong></p>
+            <p>Manolo Fortich National High School</p>
+        </aside>
 
+        <div class="about-content">
+            <article class="card">
+                <h2>Short Biography</h2>
+                <p>
+                    Hello! I am a student at MFNHS who is currently learning web development
+                    and programming. This website was created as a school project to demonstrate
+                    the use of HTML, CSS, and JavaScript in building an interactive mathematics website.
+                </p>
+            </article>
+
+            <article class="card">
+                <h2>Skills Learned</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS Styling</li>
+                    <li>UX/UI Designing</li>
+                    <li>JavaScript Functions</li>
+                    <li>User Input Handling</li>
+                    <li>Mathematical Computations</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <h2>Reflection</h2>
+                <p>
+                    Developing GeekAlley helped me improve my understanding of creating responsive
+                    websites while applying JavaScript to solve real-world mathematical problems.
+                    Throughout this project, I became more confident in organizing multiple web pages,
+                    linking them together, and creating reusable styles and scripts. This experience
+                    strengthened my programming skills and encouraged me to continue learning web development.
+                </p>
+            </article>
+        </div>
     </section>
+</main>
 
-    <!-- Features -->
+<footer>
+    <p>&copy; 2026 GeekAlley By Alexei. All Rights Reserved.</p>
+</footer>
 
-    <section class="cards">
-
-        <div class="card">
-            <h3>Calculator</h3>
-            <p>
-                Perform basic arithmetic operations including
-                percentages, square roots, exponents and expressions.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Diameter</h3>
-            <p>
-                Calculate circle measurements using
-                radius, circumference, and area formulas.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Area</h3>
-            <p>
-                Find the area of six common geometric figures.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Volume</h3>
-            <p>
-                Calculate the volume of common three-dimensional figures.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Perimeter</h3>
-            <p>
-                Solve perimeter and circumference problems instantly.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>About</h3>
-            <p>
-                Learn about the programmer, skills learned,
-                and project reflection.
-            </p>
-        </div>
-
-    </section>
-
-    <!-- Footer -->
-
-    <footer>
-
-        <p>
-            &copy; 2026 GeekAlley. All Rights Reserved.
-        </p>
-
-    </footer>
-
-    <script src="script.js"></script>
-
+<script src="script.js"></script>
 </body>
 </html>
