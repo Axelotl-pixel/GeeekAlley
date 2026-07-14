@@ -209,6 +209,17 @@ input:focus {
   background: #fff;
 }
 
+.custom-cursor {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  background: #db7093;
+  z-index: 9999;
+}
+
 footer {
   margin-top: var(--space-xxl);
   padding: var(--space-xl) var(--space-md);
