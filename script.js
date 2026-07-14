@@ -468,6 +468,15 @@ function parallelogramPerimeter() {
 
 }
 
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("show");
+  const expanded = hamburger.getAttribute("aria-expanded") === "true";
+  hamburger.setAttribute("aria-expanded", !expanded);
+});
+
 
 /*=================================
     END OF SCRIPT.JS
